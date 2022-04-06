@@ -7,8 +7,11 @@ This repository contains 3 files to open with Jupyter Notebook, a folder contain
 
 In particular:
 - Jupyter Notebook files, in order:
+
     • Vaccines Data Analysis - Data cleaning and exploratory data analysis on consolidated data about vaccines, vaccinations and Italy national situation;
+    
     • Data Scraping + Sentiment Analysis - The process of tweet collection and their cleaning to apply sentiment analysis on the text;
+    
     • Conclusions - Merge of the datasets used in the previous parts and exposition of interesting findings and the answer to our R.Q.
 
 - 'Problem Fixing Files (for part 2)' folder: contains 'token.py' and 'url.py', aptly modified for our use. These files substitute regular ones in the twint library.
@@ -16,10 +19,14 @@ In particular:
   the notebooks results in a failed connection with the Python kernel when opening.
 
 - Other files:
+
     • twitter_scraping 03, twitter_scraping 04-05, twitter_scraping 06-07, twitter_scraping 08-09 and twitter_scraping 10-12: .csv files that contain all tweets written in the specified months that contain some keywords that we chose;
+    
     • data_agg, dataset1 : .csv files that aggregate data on vaccinations, used in the first notebook;
+    
     • final scaled df, final df, Sentiment + Vax, tweets full df, tweets_cleaned, tweets_cleaned_daily, tweets_sent+emo: .csv files that we export while running the notebooks, necessary for compatibility between them;
-    • README.txt, this readme file.
+
+(Most of the datasets are not included for privacy reasons)
 
 Credits go to Luca Xie, Eric Cappellina, Rebecca Galassi, Stefano Torresan for the construction of this project.
 
